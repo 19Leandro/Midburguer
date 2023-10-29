@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  background: linear-gradient(beige 20px, orange);
+  /* background-color: beige; */
+}
+
+.navbar__links {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+}
+
+.nav__links a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.navbar__icons img {
+  width: 30px;
+  height: 30px;
+}
+/* .navbar h1 {
+  font-size: 30px;
+  color: white;
+} */
+
+.logo__nav {
+  width: 110px;
+  height: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+/* °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°HERO°°°°°°°°°°°°°°°°°°°°°°°°°°°° */
+#hero {
+  display: flex;
+  gap: 50px;
+  background-color: rgb(228, 115, 40);
+  padding: 30px;
+}
+
+.hero__imagen img {
+  width: 400px;
+  height: 500px;
+}
+
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+.hero__info h2 {
+  font-size: 60px;
+}
+
+.hero__info p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 19px;
+  color: white;
+  text-align: justify;
+}
+
+.hero__info a {
+  text-decoration: none;
+  font-size: 25px;
+  background-color: blue;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 10px;
+}
+/* °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°GALERIA DE HAMBURGUESAS°°°°°°°°°°°°°°°°°°°°°°°°°°° */
+#galery__burguer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  padding: 100px 20px;
+}
+
+.galery__fotos {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.galery__A {
+  display: flex;
+  gap: 60px;
+}
+.galery__B {
+  display: flex;
+  gap: 60px;
+}
+
+.galery__fotos img {
+  width: 300px;
+  height: 300px;
+}
+
+.galery__fotos p {
+  color: black;
+  text-align: justify;
+  font-weight: 100;
+  width: 250px;
+  font-family: Agbalumo;
+}
+
+.galery__fotos span {
+  color: rgb(234, 234, 161);
+  font-size: 25px;
+}
+
+.Burguer__1,
+.Burguer__2,
+.Burguer__3,
+.Burguer__4,
+.Burguer__5,
+.Burguer__6 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  background-color: rgb(228, 115, 40);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°ENTRADAS°°°°°°°°°°°°°°°°°°°°°°°°°°° */
+#menu__hamburguesas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  padding: 30px;
+  width: 100%;
+  background-color: rgb(228, 115, 40);
+}
+.menu__title {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__title p {
+  font-size: 25px;
+}
+.menu__title h2 {
+  font-size: 50px;
+  color: black;
+}
+
+.precios__hamburguesas {
+  display: flex;
+  gap: 150px;
+}
+.precios__A,
+.precios__B {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.precios__A,
+.precios__B p {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.precios__hamburguesas h3 {
+  color: black;
+  font-size: 28px;
+}
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°CONTACTO°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+#contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  padding: 30px;
+  background-color: black;
+}
+
+/* .contacto__mensaje {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+} */
+
+.contacto__title h2 {
+  font-size: 40px;
+  color: white;
+}
+.contacto__title p {
+  font-size: 20px;
+  width: 800px;
+  color: white;
+}
+
+.contacto__contenido {
+  display: flex;
+  gap: 200px;
+}
+
+.contacto__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.inputs__1 input {
+  width: 250px;
+  height: 50px;
+}
+
+.mensaje__contacto {
+  width: 500px;
+  height: 300px;
+  border: 5px solid orange;
+  padding: 0px 0px 240px 10px;
+}
+
+.boton__contacto {
+  padding: 10px;
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 1.5s;
+  width: 80px;
+}
+
+.boton__contacto:hover {
+  background: orange;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px orange, 0 0 25px orange, 0 0 50px orange, 0 0 100px orange;
+}
+
+.inputs__1 {
+  display: flex;
+  gap: 50px;
+}
+
+.inputs__2 {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.nombre__contacto {
+  border: 3px solid orange;
+  font-size: 17px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.email__contacto {
+  border: 3px solid orange;
+  font-size: 17px;
+}
+
+.contacto__horarios {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.list__days {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 20px;
+  list-style-type: none;
+  width: min-content;
+  color: white;
+  font-family: Agbalumo;
+}
+
+.list__hours {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 20px;
+  list-style-type: none;
+  width: 190px;
+  color: white;
+  font-family: Agbalumo;
+}
+
+.contacto__horarios p {
+  font-size: 25px;
+  color: rgb(234, 234, 161);
+  text-align: center;
+  font-family: Agbalumo;
+}
+
+.dias__horas {
+  display: flex;
+  gap: 25px;
+  border: 4px double orange;
+  padding: 10px;
+}
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°PIE DE PAGINA°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° */
+
+.pie__pagina {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 70px;
+  background-color: rgb(228, 115, 40);
+  padding: 40px 30px;
+}
+
+.pie__pagina a {
+  text-decoration: none;
+  color: black;
+}
+
+.pie__titulo {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 20px;
+}
+
+.pie__contactos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pie__politicas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pie__redes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* * {
+  border: 1px SOLID RED;
+} */
